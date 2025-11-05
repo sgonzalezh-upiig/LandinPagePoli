@@ -79,14 +79,22 @@
         .hero .container{flex-direction:column;align-items:flex-start;padding:48px 16px;}
         .hero h1{font-size:2rem;margin-bottom:12px;line-height:1.05;}
         .hero p{max-width:720px;opacity:0.95;margin-bottom:18px;}
-        .cta{
-            display:inline-block;
-            background:var(--white);
-            color:var(--ipn-purple);
-            padding:12px 18px;
-            border-radius:8px;
-            text-decoration:none;
-            font-weight:600;
+        .cta {
+            display: inline-block;
+            background: #682444; /* Color púrpura */
+            color: var(--white); /* Texto blanco */
+            padding: 12px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            transition: background 0.3s ease;
+        }
+
+        .cta:hover,
+        .cta:focus {
+            background: #4a1830; /* Color más oscuro al pasar el cursor */
+            outline: none;
         }
 
         /* Secciones principales */
@@ -199,10 +207,12 @@
                     <div class="card">
                         <h3>Registro de experiencias prácticas</h3>
                         <p>Formar profesionales con sólida preparación científica y técnica, con valores y compromiso social.</p>
+                        <a href="#" class="cta" style="display:inline-block;margin-top:12px;">Registrar práctica</a>
                     </div>
                     <div class="card">
                         <h3>Consulta de registros</h3>
                         <p>Aquí podrás consultar los registros para obtener los datos del reporte intermedio y final del semestre en curso.</p>
+                        <a href="#" class="cta" style="display:inline-block;margin-top:12px;">Consultar registros</a>
                     </div>
                 </div>
             </div>
