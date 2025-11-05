@@ -176,10 +176,35 @@
     </header>
 
     <main id="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div>
+                    <h1 id="hero-title">Bienvenido al Instituto Politécnico Nacional</h1>
+                    <p>Formando profesionistas, generando investigación y trabajando por el desarrollo tecnológico y social de México.</p>
+                    <a class="cta" href="#oferta">Conoce nuestra oferta</a>
+                </div>
+                <!-- Imagen o decorativo -->
+                <div aria-hidden="true" style="width:220px;height:140px;background:rgba(255,255,255,0.12);border-radius:12px;display:flex;align-items:center;justify-content:center;">
+                    Imagen
+                </div>
+            </div>
+        </section>
+
         <section id="sobre" aria-labelledby="sobre-title">
             <div class="section-inner">
                 <h2 id="sobre-title">Sobre el IPN</h2>
-                <p>Historia breve y misión del Instituto Politécnico Nacional. Misión, visión y datos destacados.</p>
+                <p class="lead">Historia breve y misión del Instituto Politécnico Nacional. Misión, visión y datos destacados.</p>
+
+                <div class="grid-2" style="margin-top:18px;">
+                    <div class="card">
+                        <h3>Misión</h3>
+                        <p>Formar profesionales con sólida preparación científica y técnica, con valores y compromiso social.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Visión</h3>
+                        <p>Ser una institución líder en educación e investigación aplicada para el desarrollo nacional.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -187,6 +212,17 @@
             <div class="section-inner">
                 <h2 id="oferta-title">Oferta educativa</h2>
                 <p>Programas de nivel medio superior, superior y posgrado. Formación técnica y profesional en áreas de ciencia y tecnología.</p>
+
+                <div class="grid-2" style="margin-top:18px;">
+                    <div class="card">
+                        <h3>Programas de pregrado</h3>
+                        <p>Ingenierías, ciencias básicas, programas tecnológicos y formaciones profesionales.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Posgrado</h3>
+                        <p>Maestrías y doctorados orientados a investigación y desarrollo tecnológico.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -201,6 +237,9 @@
             <div class="section-inner">
                 <h2 id="servicios-title">Servicios y contacto</h2>
                 <p>Servicios a la comunidad, centros de atención, trámites y cómo contactarnos.</p>
+                <div style="margin-top:14px;">
+                    <a href="mailto:informes@ipn.mx" style="color:var(--ipn-purple);text-decoration:underline">informes@ipn.mx</a>
+                </div>
             </div>
         </section>
     </main>
